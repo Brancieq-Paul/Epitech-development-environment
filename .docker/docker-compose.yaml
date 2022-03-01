@@ -3,4 +3,6 @@ services:
   epitech-project:
     image: epitechcontent/epitest-docker
     volumes:
-      - db-data:/var/lib/mysql
+      - project-data:/var/project
+volumes:
+  project-data:
