@@ -2,6 +2,7 @@ version: "3.7"
 services:
   epitech-project:
     image: epitechcontent/epitest-docker
+    restart: always
     volumes:
       - project-data:/var/project
 volumes:
