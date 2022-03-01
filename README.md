@@ -1,2 +1,3 @@
 # Epitech-development-environment
-A development environment based on the official epitech docker.
+
+A devlopment environment for epitech student based on the official **epitechcontent/epitest-docker** Docker. Work with **Docker Desktop** on **Windows**, **Mac** and **Linux**.
