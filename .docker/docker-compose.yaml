@@ -2,7 +2,7 @@ version: "3.7"
 services:
   epitech-project:
     image: epitechcontent/epitest-docker
-    restart: always
+    command: tail -F anything
     volumes:
       - project-data:/var/project
 volumes:
