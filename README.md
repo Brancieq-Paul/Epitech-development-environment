@@ -45,6 +45,13 @@ Use your project repository as base. The .docker will be read and the Epitech en
 
 ![Alt text](.docker/readme-images/setup_env.png?raw=true "Dev environment")
 
+An error may occur about your ssh-key. Execute the following script in your shell (work for all os) if that happen:
+
+```bash
+ssh-agent
+ssh-add <path to your private ssh key>
+```
+
 You can now open this environment in Visual Studio Code  !
 
 ![Alt text](.docker/readme-images/env_set.png?raw=true "Dev environment")
